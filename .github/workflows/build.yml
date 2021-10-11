@@ -38,7 +38,7 @@ jobs:
         if: always()
         run: |
           mkdir build
-          cp -v *.{zzz,aux,log,out,pdf,gz} build/ || true
+          cp -v *.{aux,log,out,pdf,gz} build/ || true
 
       - name: Success reporting
         if: success()
