@@ -1,0 +1,10 @@
+# Core latex/pdflatex auxiliary files
+*.aux
+*.back
+*.fdb_latexmk
+*.fls
+*.log
+*.lof
+*.lot
+*.out
+*.synctex.gz

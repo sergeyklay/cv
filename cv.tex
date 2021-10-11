@@ -1,0 +1,45 @@
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+
+\documentclass[11pt, a4paper]{awesome-cv}
+\geometry{left=1.4cm, top=.8cm, right=1.4cm, bottom=1.8cm, footskip=.5cm}
+\fontdir[fonts/]
+
+% Color for highlights
+\colorlet{awesome}{awesome-red}
+\setbool{acvSectionColorHighlight}{true}
+\renewcommand{\acvHeaderSocialSep}{\quad\textbar\quad}
+
+%-------------------------------------------------------------------------------
+% Personal Information
+%-------------------------------------------------------------------------------
+
+\photo[rectangle,noedge]{./img/photo.jpg}
+\name{Serghei Iakovlev}{}
+\position{Software Architect{\enskip\cdotp\enskip}Technical Manager}
+\address{Kyiv, Ukraine}
+
+\mobile{+380 (68) 611-73-20}
+\email{egrep@protonmail.ch}
+\homepage{serghei.blog}
+\github{sergeyklay}
+\linkedin{egrep}
+
+\quote{``Be the change that you want to see in the world."}
+
+
+\begin{document}
+\makecvheader
+\makecvfooter
+  {\today}
+  {Serghei Iakovlev~~~·~~~Curriculum Vitae}
+  {\thepage}
+
+%-------------------------------------------------------------------------------
+%	CV Contents
+%-------------------------------------------------------------------------------
+
+\input{cv/profile.tex}
+\input{cv/employment-history.tex}
+
+\end{document}
