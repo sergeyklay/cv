@@ -16,12 +16,15 @@
 % Class license:
 % LPPL v1.3c (http://www.latex-project.org/lppl)
 %
+% Changes Made by Serghei Iakovlev
+% - Change Default font to EBGaramond
+%
 
 
 %-------------------------------------------------------------------------------
 %                Identification
 %-------------------------------------------------------------------------------
-\ProvidesClass{awesome-cv}[2017/02/05 v1.6.1 Awesome Curriculum Vitae Class]
+\ProvidesClass{awesome-cv}[2021/10/11 v1.7.0 Awesome Curriculum Vitae Class]
 \NeedsTeXFormat{LaTeX2e}
 
 
@@ -162,26 +165,46 @@
 %-------------------------------------------------------------------------------
 % Set the FontAwesome font to be up-to-date.
 \setfontfamily\FA[Path=\@fontdir]{FontAwesome}
-% Set font for header (default is Roboto)
+% Set font for header (default is EBGaramond)
 \newfontfamily\headerfont[
   Path=\@fontdir,
   UprightFont=*-Regular,
   ItalicFont=*-Italic,
   BoldFont=*-Bold,
   BoldItalicFont=*-BoldItalic,
-]{Roboto}
+]{EBGaramond}
 
 \newfontfamily\headerfontlight[
   Path=\@fontdir,
-  UprightFont=*-Thin,
-  ItalicFont=*-ThinItalic,
+  UprightFont=*-Regular,
+  ItalicFont=*-Italic,
   BoldFont=*-Medium,
   BoldItalicFont=*-MediumItalic,
-]{Roboto}
+]{EBGaramond}
 
-\newcommand*{\footerfont}{\sourcesanspro}
-\newcommand*{\bodyfont}{\sourcesanspro}
-\newcommand*{\bodyfontlight}{\sourcesansprolight}
+\newfontfamily\footerfont[
+  Path=\@fontdir,
+  UprightFont=*-Regular,
+  ItalicFont=*-Italic,
+  BoldFont=*-Medium,
+  BoldItalicFont=*-MediumItalic,
+]{EBGaramond}
+
+\newfontfamily\bodyfont[
+  Path=\@fontdir,
+  UprightFont=*-Regular,
+  ItalicFont=*-Italic,
+  BoldFont=*-Medium,
+  BoldItalicFont=*-MediumItalic,
+]{EBGaramond}
+
+\newfontfamily\bodyfontlight[
+  Path=\@fontdir,
+  UprightFont=*-Regular,
+  ItalicFont=*-Italic,
+  BoldFont=*-Medium,
+  BoldItalicFont=*-MediumItalic,
+]{EBGaramond}
 
 %-------------------------------------------------------------------------------
 %                Configuration for styles
