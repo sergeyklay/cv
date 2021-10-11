@@ -32,3 +32,8 @@ jobs:
         uses: xu-cheng/latex-action@v2
         with:
           root_file: cv.tex
+          latexmk_use_xelatex: true
+
+      - name: Success Reporting
+        if: success()
+        run: git log --format=fuller -5
