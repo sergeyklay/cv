@@ -15,12 +15,13 @@
 %
 % Class license:
 % LPPL v1.3c (http://www.latex-project.org/lppl)
+%
 
 
 %-------------------------------------------------------------------------------
 %                Identification
 %-------------------------------------------------------------------------------
-\ProvidesClass{awesome-cv}[2021/10/11 v1.7.0 Awesome Curriculum Vitae Class]
+\ProvidesClass{awesome-cv}[2017/02/05 v1.6.1 Awesome Curriculum Vitae Class]
 \NeedsTeXFormat{LaTeX2e}
 
 
